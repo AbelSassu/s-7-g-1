@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+          display: block;
+          margin-bottom: 8px;
+        }
+        body{
+            background-image: url(https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/322996076/original/2c9870ba6ee32f3fb466685bc72be03f47669bda/draw-furry-art-couple-any-style-furry-art-nsfw-sfw-fursona-anime-manga-art.png);
+            background-size: cover;           
+            background-repeat: no-repeat;
+            color: azure;
+            text-align: center;
+            margin-top: 50px;
+        }
+      </style>
+</head>
+<body>
+    <main>
+        <form id="petForm">
+            <label for="petName">Nome Bestia:</label>
+            <input type="text" id="petName" required>
+        
+            <label for="ownerName">Nome padrone:</label>
+            <input type="text" id="ownerName" required>
+        
+            <label for="species">Specie:</label>
+            <input type="text" id="species" required>
+        
+            <label for="breed">Razza:</label>
+            <input type="text" id="breed" required>
+        
+            <button type="submit">Aggiungi alla lista</button>
+            
+          </form>
+          <h2>Lista di Pets</h2>
+          <ul id="petList"></ul>
+          <p id="sameOwnerMessage"></p>
+    </main>
+   
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
