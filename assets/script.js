@@ -62,7 +62,7 @@ function displayPetList() {
 
     petList.forEach(pet => {
         const listItem = document.createElement('li');
-        listItem.textContent = `Bestia: ${pet.petName} //  Nome padrone: ${pet.ownerName} //  Specie: ${pet.species} //  Razza: ${pet.breed}`;
+        listItem.textContent = `Bestia: ${pet.petName} //  Nome padrone: ${pet.ownerName} //  Specie: ${pet.species} // Razza: ${pet.breed}`;
         petListElement.appendChild(listItem);
     });
     document.getElementById('petName').value = '';
